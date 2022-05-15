@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Test</title>
+</head>
+<body>
+	<form id="main-form" onsubmit="return checkForm(this)" method="POST">
+		<div class="block" id="block1">
+			<h2>№1<br>Кому принадлежит власть при демократии?</h2>
+				<input class="radio_input" type="radio" name="question1" id="value1/1" value="2">
+				<label class="radio_label" for="value1/1"> <span>Высшему сословию</span><br></label>
+				<input class="radio_input" type="radio" name="question1" id="value1/2" value="2">
+				<label class="radio_label" for="value1/2"> <span>Интеллигенции</span><br></label>
+				<input class="radio_input" type="radio" name="question1" id="value1/3" value="2">
+				<label class="radio_label" for="value1/3"> <span>Духовенству</span><br></label>
+				<input class="radio_input" type="radio" name="question1" id="value1/4" value="1">
+				<label class="radio_label" for="value1/4"> <span>Народу</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block2">
+			<h2>№2<br>Какая страна не входит в состав Скандинавии?</h2>
+				<input class="radio_input" type="radio" name="question2" id="value2/1" value="1">
+				<label class="radio_label" for="value2/1"> <span>Финляндия</span><br></label>
+				<input class="radio_input" type="radio" name="question2" id="value2/2" value="2"> 
+				<label class="radio_label" for="value2/2"> <span>Дания</span><br></label>
+				<input class="radio_input" type="radio" name="question2" id="value2/3" value="2">
+				<label class="radio_label" for="value2/3"> <span>Швеция</span><br></label>
+				<input class="radio_input" type="radio" name="question2" id="value2/4" value="2">
+				<label class="radio_label" for="value2/4"> <span>Норвегия</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block3">
+			<h2>№3<br>В чем измеряется шум?</h2>
+				<input type="radio" name="question3" id="value3/1" value="2">
+				<label class="radio_label" for="value3/1"> <span>Паскали</span><br></label>
+				<input type="radio" name="question3" id="value3/2" value="2">
+				<label class="radio_label" for="value3/2"> <span>Кельвины</span><br></label>
+				<input type="radio" name="question3" id="value3/3" value="1"> 
+				<label class="radio_label" for="value3/3"> <span>Децибелы</span><br></label>
+				<input type="radio" name="question3" id="value3/4" value="2">
+				<label class="radio_label" for="value3/4"> <span>Амперы</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block4">
+			<h2>№4<br>Подберите синоним к слову наитие.</h2>
+				<input type="radio" name="question4" id="value4/1" value="2">
+				<label class="radio_label" for="value4/1"> <span>Отрицание</span><br></label>
+				<input type="radio" name="question4" id="value4/2" value="2">
+				<label class="radio_label" for="value4/2"> <span>Стагнация</span><br></label>
+				<input type="radio" name="question4" id="value4/3" value="1">
+				<label class="radio_label" for="value4/3"> <span>Озарение</span><br></label>
+				<input type="radio" name="question4" id="value4/4" value="2">
+				<label class="radio_label" for="value4/4"> <span>Контроль</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block5">
+			<h2>№5<br>Сколько звезд в созвездии Большой Медведицы?</h2>
+				<input type="radio" name="question5" id="value5/1" value="2">
+				<label class="radio_label" for="value5/1"> <span>9</span><br></label>
+				<input type="radio" name="question5" id="value5/2" value="1">
+				<label class="radio_label" for="value5/2"> <span>7</span><br></label>
+				<input type="radio" name="question5" id="value5/3" value="2">
+				<label class="radio_label" for="value5/3"> <span>5</span><br></label>
+				<input type="radio" name="question5" id="value5/4" value="2">
+				<label class="radio_label" for="value5/4"> <span>12</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block6">
+			<h2>№6<br>Что предназначено для приготовления газированных напитков?</h2>
+				<input class="radio_input" type="radio" name="question6" id="value6/1" value="2">
+				<label class="radio_label" for="value6/1"> <span>Озонатор</span><br></label>
+				<input class="radio_input" type="radio" name="question6" id="value6/2" value="2">
+				<label class="radio_label" for="value6/2"> <span>Сепаратор</span><br></label>
+				<input class="radio_input" type="radio" name="question6" id="value6/3" value="2">
+				<label class="radio_label" for="value6/3"> <span>Респиратор</span><br></label>
+				<input class="radio_input" type="radio" name="question6" id="value6/4" value="1">
+				<label class="radio_label" for="value6/4"> <span>Сатуратор</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block7">
+			<h2>№7<br>Что значит конгениальный?</h2>
+				<input class="radio_input" type="radio" name="question7" id="value7/1" value="2">
+				<label class="radio_label" for="value7/1"> <span>Новаторский</span><br></label>
+				<input class="radio_input" type="radio" name="question7" id="value7/2" value="2">
+				<label class="radio_label" for="value7/2"> <span>Ещё более гениальный</span><br></label>
+				<input class="radio_input" type="radio" name="question7" id="value7/3" value="2">
+				<label class="radio_label" for="value7/3"> <span>Противоречивый</span><br></label>
+				<input class="radio_input" type="radio" name="question7" id="value7/4" value="1">
+				<label class="radio_label" for="value7/4"> <span>Близкий по духу</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block8">
+			<h2>№8<br>Только одно слово написано верно – какое?</h2>
+				<input class="radio_input" type="radio" name="question8" id="value8/1" value="2">
+				<label class="radio_label" for="value8/1"> <span>Бюлетень</span><br></label>
+				<input class="radio_input" type="radio" name="question8" id="value8/2" value="2">
+				<label class="radio_label" for="value8/2"> <span>Подчерк</span><br></label>
+				<input class="radio_input" type="radio" name="question8" id="value8/3" value="2">
+				<label class="radio_label" for="value8/3"> <span>Каллории</span><br></label>
+				<input class="radio_input" type="radio" name="question8" id="value8/4" value="1">
+				<label class="radio_label" for="value8/4"> <span>Капучино</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block9">
+			<h2>№9<br>Какая из шахматных фигур не может сделать ход вперед на одно поле по вертикали?</h2>
+				<input class="radio_input" type="radio" name="question9" id="value9/1" value="1">
+				<label class="radio_label" for="value9/1"> <span>Слон</span><br></label>
+				<input class="radio_input" type="radio" name="question9" id="value9/2" value="2">
+				<label class="radio_label" for="value9/2"> <span>Ладья</span><br></label>
+				<input class="radio_input" type="radio" name="question9" id="value9/3" value="2">
+				<label class="radio_label" for="value9/3"> <span>Ферзь</span><br></label>
+				<input class="radio_input" type="radio" name="question9" id="value9/4" value="2">
+				<label class="radio_label" for="value9/4"> <span>Пешка</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<div class="block" id="block10">
+			<h2>№10<br>Кого из этих людей сожгли на костре?</h2>
+				<input class="radio_input" type="radio" name="question10" id="value10/1" value="1">
+				<label class="radio_label" for="value10/1"> <span>Джордано Бруно</span><br></label>
+				<input class="radio_input" type="radio" name="question10" id="value10/2" value="2">
+				<label class="radio_label" for="value10/2"> <span>Галилео Галилея</span><br></label>
+				<input class="radio_input" type="radio" name="question10" id="value10/3" value="2">
+				<label class="radio_label" for="value10/3"> <span>Николая Коперника</span><br></label>
+				<input class="radio_input" type="radio" name="question10" id="value10/4" value="2">
+				<label class="radio_label" for="value10/4"> <span>Данте Алигьери</span><br></label>
+				<div class="block__line">
+					<div class="block_lineRed"></div>
+				</div>
+		</div>
+		<button type="submit" name="sumbit" value="Проверить">Проверить</button>
+	</form>
+
+	<div class="window__background" id="windowBackground" onclick="onClick()"></div>
+	<div class="window__main" id="windowMain" onclick="onClick()">
+		<h3 id="text">ОТВЕТ</h3>
+		<div class="answers" id="answers">
+			<div class="answer" id="answer1">1</div>
+			<div class="answer" id="answer2">2</div>
+			<div class="answer" id="answer3">3</div>
+			<div class="answer" id="answer4">4</div>
+			<div class="answer" id="answer5">5</div>
+			<div class="answer" id="answer6">6</div>
+			<div class="answer" id="answer7">7</div>
+			<div class="answer" id="answer8">8</div>
+			<div class="answer" id="answer9">9</div>
+			<div class="answer" id="answer10">10</div>
+		</div>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
